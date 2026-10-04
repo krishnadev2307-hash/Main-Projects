@@ -64,24 +64,30 @@ pip install -r requirements.txt
 python main/main.py
 ```
 
-## Project structure
+## Project Structure
+
 ```text
 Student_Management/
-    |--config
-        |--Branches.py
-        |--database.py
-        |--schema.py
-        |--Subjects.py
-    |--main
-        |--main.py
-    |--models
-        |--student.py
-    |--repositories
-        |--StudentRepository.py
-    |--services
-        |--Student_Service.py
-    |--README.md
-    |--requirements.txt
+├── config/
+│   ├── Branches.py
+│   ├── database.py
+│   ├── schema.py
+│   └── Subjects.py
+│
+├── main/
+│   └── main.py
+│
+├── models/
+│   └── student.py
+│
+├── repositories/
+│   └── StudentRepository.py
+│
+├── services/
+│   └── Student_Service.py
+│
+├── README.md
+└── requirements.txt
 ```
 ## Architecture
 - config/ -> Configuration of the database and its schema.
